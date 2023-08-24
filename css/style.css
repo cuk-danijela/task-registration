@@ -1,0 +1,138 @@
+@font-face {
+  font-family: "National 2";
+  src: url("fonts/National2Web-Medium.woff") format("woff");
+}
+@font-face {
+  font-family: "National Regular";
+  src: url("fonts/National2Web-Regular.woff") format("woff");
+}
+body {
+  font-family: "National Regular", sans-serif;
+}
+
+.registration-container {
+  margin: 0 auto;
+  padding: 20px;
+  width: 800px;
+  margin-bottom: 112px;
+}
+
+.registration-title {
+  font-family: "National 2";
+  font-size: 48px;
+  font-weight: 500;
+  line-height: 56px;
+  letter-spacing: -0.5px;
+  text-align: left;
+  margin: 32px 0 32px 0;
+}
+
+.registration-introduction {
+  font-family: "National 2";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0;
+  text-align: left;
+  color: #202624;
+  color: #202624;
+  width: 674px;
+  height: 44px;
+  padding: 0 0 0 0;
+}
+
+.salutation {
+  font-size: smaller;
+  font-weight: 600;
+}
+
+.salutation-options {
+  width: 282px;
+  height: 66px;
+}
+
+.salutation-label {
+  padding: 0 10px 0 0;
+}
+
+.input-field {
+  width: 677px;
+  height: 48px;
+  margin-bottom: 24px;
+  font-family: "National 2";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #202624;
+}
+
+.password-rules {
+  font-family: "National 2";
+  font-size: 11px;
+  font-weight: 400;
+  line-height: 16px;
+  letter-spacing: 0px;
+  text-align: left;
+  color: #82827D;
+}
+
+.password-toggle {
+  position: absolute;
+  margin-left: -40px;
+  margin-top: 15px;
+}
+
+.labels label {
+  display: block;
+  margin-bottom: 24px;
+}
+
+.custom-list {
+  list-style-type: none;
+  padding-left: 0;
+  margin-bottom: 32px;
+}
+
+.custom-list li::before {
+  content: "-";
+  margin-right: 8px;
+}
+
+.registration-btn {
+  display: block;
+  width: 198px;
+  height: 48px;
+  border: 0;
+  background-color: #D2E143;
+  color: #202624;
+  font-family: "National 2";
+  font-size: 13px;
+  font-weight: 500;
+  line-height: 18px;
+  letter-spacing: 0px;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 56px;
+}
+
+.colored-underline {
+  font-family: "National 2";
+  font-size: 15px;
+  font-weight: 400;
+  line-height: 22px;
+  letter-spacing: 0px;
+  text-align: center;
+  color: #202624;
+}
+.colored-underline:hover {
+  color: blue;
+}
+.colored-underline .underline {
+  position: absolute;
+  height: 2px;
+  background-color: #D2E143;
+}
+
+/*# sourceMappingURL=style.css.map */

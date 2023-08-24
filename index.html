@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="css/style.css">
+        <title>Registration Case</title>
+    </head>
+    <body>
+        <div class="registration-container">
+            <h1 class="registration-title"></h1>
+            <p class="registration-introduction"></p>
+            <form id="registration-form" class="form">
+                <div class="form-field">
+                    <label>
+                        <span class="salutation"></span>
+                    </label>
+                    <div class="salutation-label"></div>
+                    <div class="salutation-options"></div>
+                    <div class="salutation-errors"></div>
+                </div>
+                <div class="form-field">
+                    <label for="firstName"></label>
+                    <input
+                        type="text"
+                        id="firstName"
+                        name="firstName"
+                        class="input-field"
+                        placeholder="Vorname"
+                        required
+                    >
+                </div>
+                <div class="first-name-errors"></div>
+                <div class="form-field">
+                    <label for="lastName"></label>
+                    <input
+                        type="text"
+                        id="lastName"
+                        name="lastName"
+                        class="input-field"
+                        placeholder="Nachname"
+                        required
+                    >
+                </div>
+                <div class="last-name-errors"></div>
+                <div class="form-field">
+                    <label for="email"></label>
+                    <input
+                        type="email"
+                        id="email"
+                        name="email"
+                        class="input-field"
+                        placeholder="E-Mail"
+                        required
+                    >
+                </div>
+                <div class="email-errors"></div>
+                <div class="form-field">
+                    <label for="password"></label>
+                    <input
+                        type="password"
+                        id="password"
+                        name="password"
+                        class="input-field"
+                        placeholder="Passwort"
+                        required
+                    >
+                    <span class="password-toggle" id="password-toggle">
+                        <img src="img/ico-eye.svg" id="eye-icon">
+                    </span>
+                </div>
+                
+                <div class="password-rules">
+                    <span>Fur ein starkes Passwort, beachte diese Vorgaben:</span>
+                </div>
+                <div class="labels">
+                <label for="newsletter">
+                    <input type="checkbox" id="newsletter" name="newsletter">
+                    <span class="registration-newsletter"></span>
+                </label>
+                <label for="terms">
+                    <input type="checkbox" id="terms" name="terms">
+                    <span class="registration-terms"></span>
+                </label>
+                <label for="privacy">
+                    <input type="checkbox" id="privacy" name="privacy">
+                    <span class="registration-privacy"></span>
+                </label>
+                </div>
+            </label>
+            <button class="registration-btn"></button>
+            <a href="#" class="colored-underline">
+                <span class="registration-link underline"></span>
+            </a>
+        </form>
+    </div>
+    <script src="js/script.js"></script>
+</body>
+</html>
